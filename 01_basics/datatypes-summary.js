@@ -25,3 +25,30 @@ let myObj ={
 const myFunction = function(){
     console.log("Hello world");
 }//Example of function
+
+
+
+//  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive):-This will create a copy of the original value , Heap (Non-Primitive):-This will give you the reference of original value
+
+let myName = "Shivam";
+
+let anotherName = myName;
+anotherName = "Sagar";
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "shivam@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+//both of these will print the new email which is "shivam@google.com"
