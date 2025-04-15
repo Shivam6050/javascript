@@ -43,7 +43,7 @@ console.log(typeof stringNumber);
  let str1 = "hello";
  let str2 = "shivam";
  let str3 =str1+str2;
- console.log(str3);/*This will return hello shivam*/
+ console.log(str3);/*This will return hello shivam as it adds both the string*/
 
 console.log("1"+2);/*This will print 12 */
 console.log(1+"2");/*This will print 12 */
