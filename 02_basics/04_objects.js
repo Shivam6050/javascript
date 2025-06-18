@@ -59,3 +59,22 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course = {
+    courseName: "js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+//course.courseInstructor
+const {courseInstructor} = course;
+console.log(courseInstructor);
+const {courseInstructor:instructor} = course;//:is used to shorten the name
+console.log(instructor);
+
+/*const navbar = ({company}) =>{              //if you don't use props.company then you will have to write company under the curly braces it is called as destructuring
+      
+}
+navbar (company = "hitesh");*/
+
